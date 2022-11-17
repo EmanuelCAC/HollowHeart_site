@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Menu*/
+.navbar
+{
+    background-color: #0f0f1b;
+}
+
+.navbar a
+{
+    color: #c6b7be;
+}
+
+.nav-link:focus
+{
+    color: #c6b7be;
+}
+
+.nav-link:hover
+{
+    color: #565a75;
+}
+
+.btn-outline-success
+{
+    color: #565a75;
+    border-color: rgb(86, 90, 117);
+}
+
+.btn-outline-success:hover, .btn-outline-success:active
+{
+    color: #fafbf6;
+    background-color: #565a75;
+    border-color: #565a75;
+}
+
+.btn-outline-success:focus
+{
+    box-shadow: none;
+}
+
+.btn-outline-success:active:focus
+{
+    box-shadow: 0 0 0 0.25rem rgba(87, 91, 117, 0.5);
+}
+
+/*Carousel*/
+.carousel-item
+{
+    max-height: 100%;
+}
+
+/*Cadastro*/
+.cadastro input[type=text]
+{
+    width: 65%;
+    padding-left: 8px;
+    height: 40px;
+    vertical-align: middle;
+    border: 1px solid #565a75;
+}
+
+.cadastro
+{
+    padding: 20px 0px;
+    background-color: #0f0f1b;
+    color: #c6b7be;
+}
+
+.cadastro input[type=submit]
+{
+    width: 15%;
+    vertical-align: middle;
+    height: 40px;
+    border: 1px solid #565a75;
+    background-color: #0f0f1b;
+    color: #565a75;
+}
+
+.cadastro input[type=submit]:hover, .cadastro input[type=submit]:active
+{
+    color: #fafbf6;
+    background-color: #565a75;
+}
+
+/*Trailer*/
+.trailer h2
+{
+    color: #c6b7be;
+    margin-top: 30px;
+}
+
+.trailer video
+{
+    margin-top: 15px;
+}
+
+.trailer
+{
+    background-color: #1c1c2d;
+    padding-bottom: 30px;
+}
+
+/*Blocos*/
+.blocos
+{
+    padding-bottom: 20px;
+    color: #c6b7be;
+    background-color: #0f0f1b;
+}
+
+.blocos img
+{
+    margin-top: 30px;
+}
+
+/*Cards*/
+.cards
+{
+    background-color: #0f0f1b
+}
+
+.cards h3
+{
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: #c6b7be;
+}
+
+.card
+{
+    background-color: #0f0f1b;
+}
+.card h5
+{
+    color: #c6b7be;
+    padding-bottom: 10px;
+    font-weight: 700;
+}
+
+.card h6
+{
+    color: #c6b7be;
+}
